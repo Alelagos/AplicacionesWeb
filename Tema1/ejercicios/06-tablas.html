@@ -5,7 +5,12 @@
     <title>Tablas en HTML</title>
   </head>
   <body>
-    <table border=1>
+    <table
+    border="1"
+    width="100%"
+    align="center"
+    bgcolor="green">
+    <caption>Titulo de la tabla</caption>
       <tr>
         <th>Encabezado 1</th>
         <th>Encabezado 2</th>
@@ -13,7 +18,7 @@
       <tr>
           <td>Fila 1 - Columna 1</td>
           <td>Fila 1 - Columna 2</td>
-          <td>Fila 1 - Columna 3</td>
+
 
       </tr>
       <tr>
@@ -25,8 +30,23 @@
       <tr>
         <td>Fila 3 - Columna 1</td>
         <td>Fila 3 - Columna 2</td>
-        <td>Fila 3 - Columna 3</td>
-
+      </table>
+      <table
+      border="1"
+      width="100%"
+      align="center"
+      bgcolor="yellow">
+    <caption>Alineacion de tabla</caption>
+      <tr>
+        <td height="100" align="left">Fila 1 - Columna 1</td>
+        <td height="100" align="center">Fila 1 - Columna 2</td>
+        <td height="100" align="right">Fila 1 - Columna 3</td>
+      </tr>
+      <tr height="100">
+        <td align="left" valign="top">Fila 2 - Columna 1</td>
+        <td align="center" valign="middle">Fila 2 - Columna 2</td>
+        <td align="right" valign="bottom">Fila 2 - Columna 3</td>
+      </tr>
 
 
       </tr>
