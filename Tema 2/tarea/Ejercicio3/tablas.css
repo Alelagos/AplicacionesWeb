@@ -1,0 +1,56 @@
+body {
+  background-color: #F1F1F1;
+}
+table {
+  border-spacing: 20px 0 ;
+  margin-left: 25%;
+  margin-top: 7%;
+  }
+tr.cabeceras {
+  background-color: #F64940;
+  text-align: center;
+  color: white;
+  font-family: "Arial";
+}
+tr.matricula {
+  background-color: white;
+  font-family: "Arial";
+  text-align: center;
+}
+span.precio_matricula {
+  font-weight: bold;
+  color: #2D3E40;
+  font-size: 20px;
+  line-height: 35pt;
+}
+span.clases {
+  font-weight: lighter;
+  color: #747374;
+  line-height: 40pt;
+}
+span.clases_centro {
+  font-weight: lighter;
+  color: #747374;
+}
+span.tiempo {
+  font-size: 27px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+span.precio {
+  font-size: 65px;
+  font-weight: bold;
+  padding-top: 80px;
+}
+span.euros {
+  font-size: 30px;
+}
+button {
+  background-color: #F64943;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin-top: 65px;
+  cursor: pointer;
+}
