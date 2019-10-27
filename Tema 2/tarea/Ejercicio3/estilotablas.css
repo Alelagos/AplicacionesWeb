@@ -2,9 +2,10 @@ body {
   background-color: #F1F1F1;
 }
 table {
-  border-spacing: 20px 0 ;
-  margin-left: 25%;
-  margin-top: 7%;
+  border-spacing: 15px;
+  margin-left: 15%;
+  margin-right: 10%;
+  margin-top: 5%;
   }
 tr.cabeceras {
   background-color: #F64940;
@@ -33,14 +34,14 @@ span.clases_centro {
   color: #747374;
 }
 span.tiempo {
-  font-size: 27px;
-  font-weight: bold;
-  padding-top: 100px;
-}
-span.precio {
-  font-size: 65px;
+  font-size: 25px;
   font-weight: bold;
   padding-top: 80px;
+}
+span.precio {
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 60px;
 }
 span.euros {
   font-size: 30px;
@@ -49,8 +50,8 @@ button {
   background-color: #F64943;
   border: none;
   color: white;
-  padding: 15px 32px;
-  font-size: 16px;
-  margin-top: 65px;
+  padding: 15px 30px;
+  font-size: 15px;
+  margin-top: 50px;
   cursor: pointer;
 }
