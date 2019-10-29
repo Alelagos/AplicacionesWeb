@@ -1,0 +1,15 @@
+h2 {
+color: white;
+}
+h3 {
+  border: 3px solid;
+  width: 150px;
+  color: blue;
+}
+hr {
+  align="left";
+  width="30%"
+}
+h4 {
+  color: blue;
+}
