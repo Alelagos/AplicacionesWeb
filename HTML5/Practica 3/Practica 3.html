@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="Practica3.css">
+    <title>Práctica 3 HTML5</title>
+  </head>
+  <header>
+    <hgroup>
+      <h1>Formularios HTML5</h1>
+      <h1>Práctica 03 - Lenguaje HTML5</h1>
+    </hgroup>
+  </header>
+  <body>
+    <section>
+      <form>
+        Nombre:
+        <input type="text" name="nombre" size="20"><br><hr>
+        Apellidos:
+        <input type="text" name="apellidos" size="50"><br><hr>
+        Dirección:
+        <input type="text" name="direccion" size="50"><br><hr>
+        Email:
+        <input type="email" name="email" size="20"><br><hr>
+        URL:
+        <input type="url" name="url" value="Escribe la url de tu  página" size="20"><br><hr>
+        Fecha:
+        <input type="date" name="fecha" size="18"><br><hr>
+        Mes:
+        <input type="month" name="mes" size="25"><br><hr>
+        Semana:
+        <input type="week" name="semana" size="20"><br><hr>
+        Número (min -10, max 10):
+        <input type="number" name="numero" min="-10" max="10" value="0"><br><hr>
+        Intervalo (min 0, max 10):0
+        <input type="range" name="rango" min="0" max="10">10<br><hr>
+        Teléfono:
+        <input type="tel" name="telefono" pattern="[0-9]{3}[0-9]{3}[0-9]{3}"
+        title="Inserte un número de teléfono válido" size="20"><br><hr>
+        Término de Búsqueda:
+        <input type="text" name="buscar" size="20"><br><hr>
+        Selecciona Color:
+        <input type="color" name="color" value="black"><br><hr>
+        Tiempo Llegada:
+        <input type="time" name="tiempo" min="00:00" max="23:59" required><br><hr>
+        Contraseña:
+        <input type="password" name="contraseña" size="15"><br><hr>
+        Forma de Pago:<br>
+        <input type="radio" name="pago" value="reembolso" checked>Contra Reembolso<br>
+        <input type="radio" name="pago" value="tarjeta">Tarjeta Crédito<br>
+        <input type="radio" name="pago" value="paypal">Paypal<br><hr>
+        Deportes Favoritos:<br>
+        <input type="checkbox" name="deporte" value="futbol">Futbol<br>
+        <input type="checkbox" name="deporte" value="baloncesto">Baloncesto<br>
+        <input type="checkbox" name="deporte" value="tenis">Tenis<br><hr>
+        Seleccione un Color:
+        <input list="colores" name="colores">
+        <datalist id= colores>
+          <option value="Azul">
+          <option value="Rojo">
+          <option value="Verde">
+          <option value="Amarillo">
+          <option value="Blanco">
+          <option value="Negro">
+        </datalist><br><hr>
+        Comentarios:<br>
+        <textarea name="comentarios" rows="8" cols="80">Introducir comentario...</textarea><br><hr>
+        Adjuntar Fichero:
+        <input type="file" name="fichero"><br><hr>
+        <input type="reset" value="Reestablecer">
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+    <footer>
+      <p>© 2020 I.E.S FUENTE GRANDE. All rights reserved.</p>
+    </footer>
+  </body>
