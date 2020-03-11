@@ -1,0 +1,11 @@
+table {width: 100%;border-collapse: collapse;}
+th, td {
+  padding: 5px;
+  text-align: left;
+  width: 25%;
+}
+tr {border-top: 1px solid lightgrey;}
+header {border: 1px solid grey;margin-bottom: 5px;font-family: arial;color: #505050;padding-left: 10px;}
+article {border: 1px solid grey;}
+section {border: 1px solid grey;margin: 12px;font-family: arial;padding: 10px;}
+footer {border: 1px solid grey; padding: 0px 0px 3px 10px; margin-top: 5px;font-family: arial;color: #202020;}
